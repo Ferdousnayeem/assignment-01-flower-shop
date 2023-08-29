@@ -9,6 +9,7 @@ body {
   background: rgba(229, 84, 115, 0.1);
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 2% 5% 0;
 }
 
@@ -37,6 +38,13 @@ body {
   font-size: 20px;
   font-weight: 700;
   border: none;
+}
+
+.shop-now-btn:hover {
+  background: #fff;
+  color: #e55473;
+  border: 1px solid #272727;
+  transition: 500ms;
 }
 
 .header-img {
